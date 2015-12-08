@@ -9,5 +9,4 @@ else
 	echo "test issue please ignore" > ./debug.issue;
 	git add -A .;
 	git commit -m 'Added awesome issue tracking via irit';
-	git push origin _issues;
 fi
