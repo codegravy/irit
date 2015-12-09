@@ -14,7 +14,7 @@ function issues {
 			echo 'Empty issues set up'
 		fi
 	else
-		if ! [ hasIssuesBranch ]; then
+		if ! hasIssuesBranch; then
 			echo 'Issues has not be initalized. Please run ${0} init';
 		else
 			if [ "$1" == "create" ]; then
